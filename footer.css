@@ -1,0 +1,16 @@
+.nodo_footer{
+    height: 5rem;
+    border-top: 1px solid gray;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+.nodo_footer span{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.nodo_footer img{
+    width: 3rem ;
+}

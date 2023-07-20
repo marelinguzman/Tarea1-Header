@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.encabezado{
+
+}
+.titulo{
+
+}
+.img{
+    width: 7rem;
+    margin-left: 3rem;
+}
+.header {
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    padding-top: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+.encabezado {
+    margin-left: 75rem;
+    width: 38rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opcionesLista {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.opcion{
+    margin: 0rem 1rem;
+    font-weight: 900;
+}
+
+.btn {
+    height: 2rem;
+    width: 4.7rem;
+    border-radius: 0.5rem;
+    background-color: rgb(153, 152, 152);
+}
